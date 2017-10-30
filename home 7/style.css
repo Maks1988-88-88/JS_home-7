@@ -1,0 +1,121 @@
+#window {
+	text-align: center;
+    width: 150px;
+    height: 70px;
+	margin: 50px auto;
+	z-index: 5;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 15px;
+	border: 2px solid black;
+	display: none;
+}
+
+
+.member {
+	background: none;
+}
+
+.memberRed {
+	background: red;
+}
+
+
+.six {
+	margin: auto;
+	width: 180px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.smile {
+	width: 180px;
+    height: 170px;;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+
+.darcker {
+	width: 180px;
+    height: 170px;
+	background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 15;
+	/*animation: opaciter 4s infinite;*/
+	/*transition: all 2s ease;*/
+}
+
+@keyframes opaciter1 {
+	0% {
+		background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+	}
+	17% {
+		background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.75) 100%);
+	}
+	34% {
+		background: linear-gradient(270deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.5) 100%);
+	}
+	50% {
+		background: linear-gradient(270deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.25) 100%);
+	}
+	67% {
+		background: linear-gradient(270deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.25) 100%);
+	}
+	84% {
+		background: linear-gradient(270deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%);
+	}
+	100% {
+		background: linear-gradient(270deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);
+	}
+
+}
+
+@keyframes opaciter2 {
+	0% {
+		background: linear-gradient(270deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 100%);		
+	}
+	17% {
+		background: linear-gradient(270deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%);
+	}
+	34% {
+		background: linear-gradient(270deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.25) 100%);
+	}
+	50% {
+		background: linear-gradient(270deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.5) 100%);
+	}
+	67% {
+		background: linear-gradient(270deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.5) 100%);
+	}
+	84% {
+		background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.75) 100%);
+	}
+	100% {
+		background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+	}
+
+}
+
+
+#heroInf {
+	position: fixed;
+	bottom: 20px;
+	margin: 0 auto;
+	border: 2px solid black;
+    width: 40%;
+    right: 40%;
+	z-index: 15;
+	display: none;
+	text-align: center;
+	background: green;
+	color : white;
+}
